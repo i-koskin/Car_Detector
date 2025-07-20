@@ -24,7 +24,7 @@
 ```bash
 git clone https://github.com/i-koskin/Car_Detector.git
 cd Car_Detector
-python -m venv venv
+py -m venv venv
 venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
@@ -48,7 +48,7 @@ uvicorn web_interface:app --reload --port 8000
 ### 🚀 Запуск
 
 ```bash
-python main.py
+py main.py
 ```
 
 ### 🛑 Остановка
